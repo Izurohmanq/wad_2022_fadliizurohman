@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+.nav-link {
+  color: black;
+  padding: 10px 11px;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+/*=====================================================================================   user2                       */
+#opening {
+  display: flex;
+  flex-direction: column;
+  margin: 150px auto 105px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5% 0;
+  color: rgb(255, 242, 242);
+  background-image: url(aset/motor1.jpeg);
+  width: 80%;
+  height: 65vh;
+  background-color: black;
+  border-radius: 30px;
+  border: 4px solid black;
+  box-shadow: 5px 10px black;
+}
+
+#opening h2 {
+  font-size: 50px;
+  font-family: "Courier Prime";
+  font-weight: 500;
+  text-shadow: 4px 4px #a51a1a;
+  padding-bottom: 30px;
+}
+
+#opening p {
+  font-family: "Poppins";
+  text-shadow: 3px 3px #a51a1a;
+}
+
+.content {
+  display: flex;
+  margin: 0px auto 105px auto;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  opacity: 1;
+}
+
+.content.muncul {
+  opacity: 0;
+}
+
+.content .content-left {
+  margin-left: 50px;
+  width: 400px;
+}
+.content .content-left h1 {
+  font: 70px "Montserrat", sans-serif;
+  padding-bottom: 20px;
+}
+.content .content-left p,
+.contentTwo .contentTwo-rigth p {
+  padding-bottom: 30px;
+}
+.content .content-left button,
+.contentTwo .contentTwo-rigth button {
+  font: 20px "Montserrat", sans-serif;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.content .content-left button:hover,
+.contentTwo .contentTwo-rigth button:hover {
+  color: black;
+  background-color: white;
+  border: 4px solid black;
+}
+
+.content .content-rigth img,
+.contentTwo .contentTwo-left img {
+  border-radius: 30px;
+  border: 4px solid black;
+  box-shadow: 5px 10px;
+}
+
+.carousel-item img,
+#closing img {
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+#closing {
+  font-family: "Poppins", sans-serif;
+}
+
+/* carrousel */
+
+#carrousel img {
+  width: 55%;
+}
+/* alhir carrousel */
+/*=====================================================================================   user2                       */
+
+/*=====================================================================================   product                       */
+
+#barang {
+  font-family: "Poppins", sans-serif;
+}
+
+#barang img {
+  transition: 0.2s ease-in;
+}
+
+#barang img:hover {
+  transform: scale(1.1);
+}
+
+#barang .container .card {
+  border: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+/*=====================================================================================   product                       */
+/*=====================================================================================   Photos                       */
+#motor {
+  margin: 6% 0px;
+}
+#motor img {
+  width: 25%;
+  transition: 0.3s ease-in-out;
+}
+#motor img:hover {
+  transform: scale(1.02);
+}
+
+/*=====================================================================================   Photos                       */
+
+/*=====================================================================================   kelola                       */
+
+#barang {
+  margin-top: 10%;
+  text-align: center;
+}
+
+/*=====================================================================================   kelola                       */
+
+/*=====================================================================================   tambah                       */
+
+#tambah {
+  margin: 10% 0px;
+}
+
+#tambah .formtas form {
+  margin: auto;
+  color: white;
+  padding: 20px;
+  background-color: rgb(95, 19, 19);
+  border-radius: 20px;
+}
+
+#tambah .formtas form button {
+  color: white;
+  background-color: rgb(126, 40, 40);
+  border: 2px solid white;
+}
+#tambah .formtas form button:hover {
+  color: white;
+  background-color: black;
+}
+/*=====================================================================================   tambah                       */
+
+/*=====================================================================================   pesan                       */
+
+#pesanan {
+  margin: auto;
+  width: 80%;
+}
+
+#pesanan table {
+  margin-top: 10%;
+  border: 2px solid black;
+}
+
+/*=====================================================================================   pesan                       */
+
+/*=====================================================================================   pesan                       */
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: maroon;
+}
+/* akhir scroll bar */
+
+/* curhatan */
+
+#curhatan .container {
+  margin-top: 10%;
+}
+/* curhatan */
+
+/* Keranjang */
+
+.keranjang .gambar {
+  background-color: maroon;
+  cursor: pointer;
+}
+.keranjang .gambar:hover {
+  background-color: rgb(54, 12, 19);
+  transition: 0.2s ease-in;
+}
+
+footer a {
+  color: white;
+}
+footer a:hover {
+  color: cyan;
+}
+@media screen and (min-width: 980px) {
+}
+/* Keranjang */
+@media screen and (max-width: 768px) {
+  #opening h2 {
+    font-size: 30px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .content .content-left {
+    padding-top: 30px;
+    margin-left: 0px;
+    width: 300px;
+  }
+  .content .content-left h1 {
+    padding-bottom: 20px;
+  }
+  .content .content-left p {
+    padding-bottom: 0px;
+  }
+
+  /* yt */
+
+  #video iframe {
+    width: 80%;
+    height: 80%;
+  }
+
+  /* yt */
+
+  /* carrousel */
+
+  #carrousel img {
+    width: 70%;
+  }
+  /* alhir carrousel */
+  /* ===================================================================== product */
+
+  #barang .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #barang .card {
+    margin-right: 0px;
+  }
+  /* ===================================================================== product */
+  /* ===================================================================== photos */
+  #motor {
+    margin-top: 20%;
+  }
+
+  #motor .containt img {
+    width: 75%;
+  }
+  /* ===================================================================== photos */
+
+  /*=====================================================================================   tambah                       */
+
+  #tambah {
+    margin-top: 25%;
+  }
+
+  /*=====================================================================================   tambah                       */
+}
